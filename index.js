@@ -23,4 +23,4 @@ files.forEach((file) => {
   total += rows.length * Object.keys(rows[0]).length;
 });
 
-console.log(`${total} datapoints from ${files.length} files.`);
+console.log(`${total.toLocaleString()} datapoints from ${files.length} files.`);
